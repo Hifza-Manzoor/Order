@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fcc52f ;
+    font-size: 25px;
+}
+.table1 {
+    padding: 0 0 70px 0;
+    border: 1.5px #FFC423 groove;
+    text-align: center;
+    width: 100%;
+}
+.top-heading {
+    font-size: 100px;
+    padding: 70px;
+    text-align: center;
+    color: #DB0007;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.h1 {
+    font-size: 80px;
+    line-height: 24px;
+    padding: 40px;
+    text-align: center;
+    color: #DB0007;
+}
+.form {
+    background: #f1ce6e ;
+    width: 80%;
+    padding: 50px;
+    margin: 50px auto 0;
+    border-top: 5px #DB0007 solid;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+.h2 {
+    color: #DB0007;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.button {
+    color: whitesmoke;
+    width: 300px;
+    height: 75px;
+    background-color: #DB0007 ;
+    font-size: 20px ;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px #711307;
+    margin-left: 43%;
+    font-size: 30px;
+}
+
+.form-text {
+    padding: 80px;
+}
+
+.user {
+    padding: 8px 10px;
+}
+
+.name {
+    width: 50%;
+    padding: 8px 0 8px 40px;
+
+}
+
+.name i {
+    position: absolute;
+    font-size: 18px;
+    color: #DB0007;
+    border-right: 1px solid #cccccc;
+}
+
+
+.envelope {
+    padding: 8px 11px;
+
+}
+
+.email {
+    width: 70%;
+    padding: 8px 0 8px 50px;
+
+}
+
+.email i {
+    position: absolute;
+    font-size: 18px;
+    color: #DB0007;
+    border-right: 1px solid #cccccc;
+}
+
+.phone {
+    padding: 8px 11px;
+}
+
+.number {
+    width: 70%;
+    padding: 8px 0 8px 50px;
+
+}
+
+.number i {
+    position: absolute;
+    font-size: 20px;
+    color: #DB0007;
+    border-right: 1px solid #cccccc;
+}
+
+.card {
+    padding: 8px 11px;
+}
+
+.address  {
+    width: 70%;
+    padding: 8px 0 8px 50px;
+}
+
+.address i {
+    position: absolute;
+    font-size: 20px;
+    color: #DB0007;
+    border-right: 1px solid #cccccc;
+}
+
+.border  input{
+    border: 1px #cccccc solid;
+}
+
+.border:hover, .name:hover, .email:hover, .number:hover, .address:hover {
+    background-color: #f1ce6e;
+    
+}
+
+.border:focus, .name:focus, .email:focus, .number:focus, .address:focus  {
+    border: 2px red solid;
+
+}
+
+.border-choices {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.chees {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px #f1ce6e solid; 
+    color: #7b7b7b;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.chees:hover, .chees:focus {
+
+    color: #DB0007;
+    background:#cccccc;
+    border-color:  #DB0007;
+}
+
+.burger {
+    font-size: 30px;
+    font-family: 'sans-serif';
+    margin-left: 5%;   
+}
+
+.sides {
+    font-size: 30px;
+    font-family: 'sans-serif';
+    margin-left: 5%;  
+}
+
+.check-button {
+    width: 2%;
+    height: 2%;
+}
+
+.button:hover {
+ color: green;
+
+}
